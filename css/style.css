@@ -1,0 +1,334 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  font-family: sans-serif;
+
+}
+header {
+  background: linear-gradient
+}
+
+
+
+.headerDiv h1 {
+  color: white;
+  font-size: 50px;
+  background: linear-gradient
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 380px));
+  gap: 50px;
+  padding-top: 20px;
+  padding-left: 85px;
+}
+.card {
+  width: 300px;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 8px;
+  transition: 0.3s;
+  
+}
+.card h3 {
+  font-size: 22px;
+  border-bottom: 1px solid black;
+ 
+}
+.card p {
+  padding: 10px 0;
+
+}
+.card div {
+  text-align: right;
+  padding-left: 85px;
+}
+
+.card button {
+  background-color: rgb(0, 89, 255);
+  transition: 0.5s;
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+  margin-right: 100px;
+  
+}
+.card button:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  transition: 0.5s;
+}
+.card:hover {
+  transition: 0.3s;
+  transform: scale(1.05);
+}
+.carousel-inner img{
+  width: 800px;
+  height: 850px;
+  }
+  .carousel-2 img{
+    width: 800px;
+    height: 850px;
+  }
+  .carousel-item img figure{
+    width: 800px;
+    height: 850px;
+  }
+.carousel-inner h5{
+font-size: 40px;
+color: rgb(255, 255, 255);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card img{
+  width: 280px;
+    height: 300px;
+}
+.card {
+  width: 400px;
+    height: 500px;
+    align-items: center;
+}
+.h2{
+text-align: center;
+text-decoration: underline;
+transition: 0.5s;
+padding-right: 60px;
+margin-right: 710px;
+margin-left: 700px;
+padding-top: 25px;
+height: 15px;
+
+
+}
+.mais{
+  align-items: center;
+  display: flex;
+  padding-top: 50px;
+  transition: 0.5s;
+  
+}
+.mais nav ul {
+  list-style: none;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.mais nav ul li {
+  text-decoration: none;
+  transition: 0.5s;
+}
+.mais nav ul li a {
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+.mais nav ul li a:hover{
+   transition: 0.5s;
+   color: blue;
+   font-size: 30px;
+ 
+   
+}
+.icone {
+ scale: 110%;
+ padding-left: 25px;
+
+}
+.dropdown-menu{
+  padding-left: 800px;
+}
+.nav-item{
+  padding-right: 25px;
+}
+.pé{
+  
+  background-color: rgb(218, 218, 218);
+  text-align: center;
+  height: 80px;
+}
+.pé{
+  padding-top: 10px;
+  border-top: 1px solid black;
+ 
+}
+
+
+
+
+.cep{
+  text-align: center;
+  background-color: rgb(218, 218, 218);
+
+
+}
+.Destaques p{
+  text-align: center ;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 20px;
+  font-size: 30px;
+  padding-right: 10px;
+}
+.iconecart  {
+  height: 70px;
+  width: 200px;
+
+ 
+  
+}
+.iconecart img{
+  height: 60px;
+  width: 70px;
+
+}
+.iconecart p {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.card {
+  margin-left: 35px;
+  justify-content: center;
+}
+.Destaques h1{
+
+
+
+
+}
+.Destaques {
+  width: 440px;
+  padding-top: 20px;
+}
+.buttons button{
+
+margin-right: 90px;
+}
+.buttons{
+  padding-top: 20px;
+}
+
+.email{
+  padding-bottom: 10px;
+}.form-control {
+  padding-top: 10px;
+}
+.container-2 .card img{
+width: 900px;
+height: 800px;
+}
+
+.container-2 a{
+    font-size: 15px;
+    margin-left: 110px;
+    margin-top: 10px;
+}
+.container-2 nav{
+  size: 100px;
+  margin-top: 10px;
+
+}
+.buttons button{
+  width: 200px;
+}
+.container-2 nav{
+  list-style: none;
+  text-decoration: none;
+}
+.container-2 a{
+  text-decoration: none;
+}
+.container-3{
+  margin-left: 620px;
+  padding-top: 50px;
+  width: 500px;
+  
+
+}
+.container-3 h1{
+  font-size: 25px;
+  display: flex;
+  margin-left: 10px;
+}
+.container-3 h3{
+  margin-left:  10px;
+}
+.container-3 p{
+  margin-left:  10px;
+}
+.container-4{
+  margin-left: 620px;
+  padding-top: 20px;
+  
+
+  
+}
+.escambonet{
+  margin-top: 150px;
+  margin-left: 90px;
+}
+.container-5{
+ margin-top: 25px; 
+}
+.container-6 .card{
+  margin-top: 400px;
+  margin-left: 25px;
+  width: 1620px;
+  margin-bottom: 40px;
+  
+}
+.chat img{
+  height: 60px;
+  width: 70px;
+
+}
+.chat p {
+  color: rgb(226, 226, 226);
+  margin-top: 300px;
+  font-size: 25px;
+}
+
+.container-fluid img{
+  height: 70px;
+  width: 150px;
+}
+.card img {
+  width: 350px;
+  height: 350px;
+  border-radius: 5px;
+}
+.pé a{
+  list-style: none;
+  text-decoration: none;
+}
+.pé {
+  margin-top: 25px;
+}
+.container-2{
+  max-width: 1780px;
+
+  grid-template-columns: repeat(auto-fill, minmax(1750px, 380px));
+  gap: 50px;
+  padding-top: 20px;
+}
+.container-3 img{
+height: 60px;
+width: 120px;
+margin-left: 90px;
+}
+.posto img{
+  height: 120px;
+  width: 300px;
+}
+  .container-4 .card{
+    width: 700px;
+    height: 420px;
+    margin-right: 400px;
+  }
+
+  .container-4 .card img{
+    width: 650px;
+    height: 400px;
+  }
+  
